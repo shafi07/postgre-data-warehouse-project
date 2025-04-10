@@ -1,1 +1,5 @@
+CREATE DATABASE Data_warehouse;
 
+CREATE SCHEMA bronze;
+CREATE SCHEMA silver;
+CREATE SCHEMA gold;
