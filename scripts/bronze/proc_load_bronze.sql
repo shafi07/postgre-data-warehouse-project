@@ -1,7 +1,7 @@
 CREATE OR REPLACE PROCEDURE bronze.load_bronze()
 LANGUAGE plpgsql
 AS $$
-deCLARE
+DECLARE
     batch_start_time TIMESTAMP;
     batch_end_time TIMESTAMP;
     start_time TIMESTAMP;
